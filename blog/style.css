@@ -1,0 +1,50 @@
+.aside1{
+padding-top:70px;
+padding-right: 40px;
+	background-color: #232343;
+	width: 30%;
+	 float: left;
+	 height: 100%;
+	 display: inline-block;
+     text-align: right;
+padding-bottom: 50%;
+	 
+}
+.aside1 b{
+	border: 1px solid white; color: white;
+padding: 5px;
+}
+
+
+.aside2{
+padding: 40px;
+width: 60%;
+display: inline-block;
+}
+img{
+	
+	width: 250px;
+	float: left;
+	margin: 10px;
+}
+.img{
+	
+	display: inline-block;
+	
+}
+.footer a{
+
+text-decoration: none;
+color: gray;
+
+
+}
+.footer{
+margin-left: 280px;
+	display: inline-block;
+
+
+}
+.clear{
+	clear: both;
+}
