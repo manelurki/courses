@@ -1,0 +1,533 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.container1 {
+  background-image: url(/theme/image.php/academic/theme/1573546440/sectiontrimage),
+    url(http://academic.themescustom.com/theme/image.php/academic/theme/1573546440/servicesboximage);
+  width: 100%;
+  height: 100%;
+  background-position: left top, center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h3 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+#headline {
+  text-align: center;
+  color: white;
+  font-style: italic;
+}
+
+#tophr {
+  width: 7%;
+  border: 2px solid #549c71;
+  margin-top: -0.5%;
+  margin-bottom: 3%;
+}
+.card {
+  background: none;
+  border-width: 2px;
+  border-color: white;
+  margin: 7%;
+}
+.initialcard:hover {
+  border: 2px solid #549c71;
+  background-color: #000;
+  opacity: 100%;
+}
+.card-img-top {
+  width: 39%;
+  margin-left: 30%;
+  margin-top: 3%;
+}
+.card-title {
+  color: #549c71;
+  font-size: 19px;
+  text-align: center;
+}
+.card-text {
+  color: white;
+  text-align: center;
+}
+#heady {
+  margin-bottom: 5%;
+}
+
+#text-dark {
+  color: black;
+  font-size: 30px;
+  margin: 2%;
+}
+
+#icon {
+  margin-left: 45%;
+  display: flex;
+}
+.nearicon {
+  margin-top: 1.5%;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 3%;
+  border: 2px solid #549c71;
+}
+#iconimg {
+  margin-top: -0.5%;
+}
+#sub-text {
+  color: gray;
+  text-align: center;
+}
+.mcardcolumns {
+  display: inline-flex;
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+}
+.row.no-pad {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.mcard1 {
+  background-color: rgb(280, 86, 80);
+  margin: 0 auto;
+}
+.mcard1:hover {
+  border: none;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 1);
+  -moz-transform: translate(0, -1em);
+  -o-transform: translate(0, -1em);
+  -webkit-transform: translate(0, -1em);
+}
+.mcard2 {
+  background-color: rgb(240, 140, 0);
+  margin: 0 auto;
+}
+.mcard2:hover {
+  border: none;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 1);
+  -moz-transform: translate(0, -1em);
+  -o-transform: translate(0, -1em);
+  -webkit-transform: translate(0, -1em);
+}
+.mcard3 {
+  background-color: rgb(0, 155, 138);
+  margin: 0 auto;
+}
+.mcard3:hover {
+  border: none;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 1);
+  -moz-transform: translate(0, -1em);
+  -o-transform: translate(0, -1em);
+  -webkit-transform: translate(0, -1em);
+}
+.mcard4 {
+  background-color: rgb(0, 196, 214);
+  margin: 0 auto;
+}
+.mcard4:hover {
+  border: none;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 1);
+  -moz-transform: translate(0, -1em);
+  -o-transform: translate(0, -1em);
+  -webkit-transform: translate(0, -1em);
+}
+.mtitle {
+  color: white;
+  font-size: 20px;
+}
+#gallary {
+  background-color: #fff;
+}
+#gallery h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: normal;
+  font-size: 1.8em;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+#gallery-container {
+  background-color: black;
+  margin-top: 1em;
+}
+
+#gallery-container a {
+  position: relative;
+  width: 25%;
+  max-width: 25%;
+}
+#gallery-container a img {
+  opacity: 0.7;
+}
+#gallery-container a span {
+  height: 3em;
+  width: 3em;
+  background-color: white;
+  background-image: url("./img/permalink.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  visibility: hidden;
+}
+#gallery-container a:hover {
+  background-color: #5dbcd2;
+}
+#gallery-container a:hover span {
+  visibility: visible;
+}
+#brands {
+  background-color: #424242;
+}
+
+#social-contacts {
+  background-color: #002b46;
+  color: white;
+  font-size: 12px;
+}
+
+#social-contacts a {
+  text-decoration: none;
+  color: #7f919d;
+}
+#social-contacts a:hover {
+  color: white;
+}
+.clock-icon,
+.email-icon {
+  color: #5dbcd2;
+}
+
+.fab {
+  background-color: #00253c;
+  font-size: 15px;
+  border-radius: 50%;
+  padding: 0.5em;
+}
+.fa-facebook-f {
+  width: 2em;
+  height: 2em;
+}
+.fa-facebook-f:hover {
+  background-color: #3b5998;
+}
+.fa-twitter:hover {
+  background-color: #1dcaff;
+}
+.fa-google-plus-g:hover {
+  background-color: #d34836;
+}
+
+#social-contacts div p + p::before {
+  content: "";
+  border: 0.5px solid #7f919d;
+  height: 100%;
+  margin-right: 0.8em;
+}
+
+nav {
+  padding: 0 10em 0 10em !important;
+}
+nav ul li {
+  width: 100%;
+  padding: 1em 0.2em;
+}
+nav ul li a {
+  color: black !important;
+}
+nav ul li a:hover {
+  color: #5dbcd2 !important;
+}
+nav ul li.active {
+  background-color: rgb(59, 157, 179);
+}
+nav ul li.active a {
+  color: white !important;
+}
+
+@media (max-width: 768px) {
+  #gallery-container a {
+    width: 33.33%;
+    max-width: 33.33%;
+  }
+}
+@media (max-width: 576px) {
+  #gallery-container a {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+/*   Programs Section   */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.wrapper {
+  width: 90%;
+  margin: 0px auto;
+}
+
+#programs_title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+#programs_title h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  #programs_title {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 500px) {
+  #programs_title {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  #programs_title h2 {
+    text-align: center;
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .container h2 {
+    text-align: center;
+    margin: 0px auto;
+  }
+}
+
+#programs_title p {
+  font-style: italic;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  #programs_title p {
+    font-size: smaller;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #programs_title p {
+    font-size: small;
+  }
+}
+
+#edu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#edu hr {
+  background-color: green;
+  width: 40px;
+  height: 1px;
+  border-radius: 1px;
+  border-color: green;
+  margin: 20px 10px 20px 10px;
+}
+
+/* Programs Section */
+#programs a {
+  color: black;
+}
+#programs a:hover {
+  color: green;
+  text-decoration-line: none;
+}
+#programs div {
+  border: 0;
+  padding: 0px 5px;
+}
+#programs img {
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+@media (max-width: 900px) {
+  #programs h5 {
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #programs h5 {
+    font-size: small;
+  }
+}
+@media (max-width: 900px) {
+  #programs p {
+    font-size: small;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #programs p {
+    font-size: small;
+  }
+}
+
+.myCardText {
+  padding-bottom: 80px;
+}
+
+/*   Teachers Section   */
+#teachers img {
+  width: 50px;
+  height: 50px;
+}
+#teachers i {
+  display: inline-block;
+}
+
+#teachers {
+  background: linear-gradient(
+      to bottom,
+      rgba(117, 104, 94, 0.8) 0,
+      rgba(117, 104, 94, 0.8) 100%
+    ),
+    url("img/banner1image.jpg");
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+#teachers h2 {
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  #teachers {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 500px) {
+  #teachers {
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  #teachers h2 {
+    text-align: center;
+    margin: 0px auto;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .teachers h2 {
+    text-align: center;
+    margin: 0px auto;
+  }
+}
+
+#teachers p {
+  color: white;
+}
+
+#teachers hr {
+  background-color: green;
+  width: 60px;
+  height: 2px;
+  border-radius: 3px;
+  border-color: green;
+  margin-bottom: 40px;
+}
+
+/*  Footer  */
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer a {
+  color: green;
+}
+
+footer a:hover {
+  color: gray;
+  text-decoration-line: none;
+}
+
+.carousel-item img {
+  height: 600px;
+  width: 100%;
+  /* margin: 20px;
+  margin-right: 20px; */
+}
+.carousel-caption h5 {
+  color: #549c71;
+  font-size: 50px;
+  font-weight: bold;
+}
+.slide {
+  z-index: 0;
+  margin-bottom: -50px;
+}
+.manel {
+  margin-bottom: 100px;
+}
+.manel .btn {
+  width: 150px;
+  font-size: 20px;
+}
+
+.secondone{
+  padding-bottom: 50px;
+}
+.secondone .row {
+  width: 90%;
+  margin-left: 47px;
+  z-index: 1;
+
+}
+
+.thumbnail {
+  margin-top: 10px;
+}
+
+.caption {
+  border-style: groove;
+  border-color: #549c71;
+  margin-top: 5px;
+
+  height: 230px;
+}
+.caption h5 {
+  font-size: 20px;
+  color: #549c71;
+  text-align: center;
+}
+.caption p {
+  text-align: center;
+}
+.thumbnail .btn {
+  width: 150px;
+  font-size: 15px;
+  margin-left: 25%;
+  margin-bottom: 0px;
+}
